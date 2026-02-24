@@ -18,6 +18,7 @@
 
 ### 所有数据的保存方式只有三种
 ```pawn
+// 可以自己修改命名方案 比如 PLAYER_DATA_MONEY  PLAYER_DATA_KILL
 // 设置数据
 Player_SetInt(playerid, PLAYER_DATA_FIELD_VAR_84, 999);
 Player_SetFloat(playerid, PLAYER_DATA_FIELD_VAR_167, 3.1415926);
